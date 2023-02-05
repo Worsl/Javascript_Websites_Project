@@ -19,3 +19,9 @@ if (randomNumber1 > randomNumber2){
 } else{
     text.innerHTML = "draw";
 }
+
+
+const button = document.querySelector("button");
+button.addEventListener("click",() => {
+    location.reload();
+});
